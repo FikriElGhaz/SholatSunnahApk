@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Sholat Sunnah</string>
-    <string name="sholat_tahajud">Sholat Tahajud</string>
-    <string name="sholat_witir">Sholat Witir</string>
-    <string name="sholat_rawatib">Sholat Rawatib</string>
-    <string name="sholat_dhuha">Sholat Dhuha</string>
-    <string name="sholat_istikhoroh">Sholat Istikhoroh</string>
-    <string name="sholat_tahiyyatul_masjid">Sholat Tahiyyatul Masjid</string>
-    <string name="sholat_syuruq">Sholat Syuruq</string>
+    <string name="sholat_tahajud">-- Sholat Tahajud --</string>
+    <string name="sholat_witir">-- Sholat Witir --</string>
+    <string name="sholat_rawatib">-- Sholat Rawatib --</string>
+    <string name="sholat_dhuha">-- Sholat Dhuha --</string>
+    <string name="sholat_istikhoroh">-- Sholat Istikhoroh --</string>
+    <string name="sholat_tahiyyatul_masjid">-- Sholat Tahiyyatul Masjid --</string>
+    <string name="sholat_syuruq">-- Sholat Syuruq --</string>
+    <string name="contoh_beberapa_sholat_sunnah">Contoh Beberapa Sholat Sunnah</string>
 </resources>

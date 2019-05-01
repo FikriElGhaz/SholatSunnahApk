@@ -4,15 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/contoh_beberapa_sholat_sunnah"
+    android:textSize="25sp"
+    android:textColor="@color/colorPrimary"/>
 
     <TextView
         android:id="@+id/tahajud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sholat_tahajud"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="30dp"/>
 
     <TextView
         android:id="@+id/witir"
@@ -20,7 +29,8 @@
         android:layout_height="wrap_content"
         android:text="@string/sholat_witir"
         android:textSize="18sp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:id="@+id/rawatib"
@@ -28,7 +38,8 @@
         android:layout_height="wrap_content"
         android:text="@string/sholat_rawatib"
         android:textSize="18sp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:id="@+id/dhuha"
@@ -36,7 +47,8 @@
         android:layout_height="wrap_content"
         android:text="@string/sholat_dhuha"
         android:textSize="18sp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:id="@+id/istikhoroh"
@@ -44,7 +56,8 @@
         android:layout_height="wrap_content"
         android:text="@string/sholat_istikhoroh"
         android:textSize="18sp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:id="@+id/tahiyyatulmasjid"
@@ -52,7 +65,8 @@
         android:layout_height="wrap_content"
         android:text="@string/sholat_tahiyyatul_masjid"
         android:textSize="18dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:id="@+id/syuruq"
@@ -60,6 +74,7 @@
         android:layout_height="wrap_content"
         android:text="@string/sholat_syuruq"
         android:textSize="18sp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
 
 </LinearLayout>
